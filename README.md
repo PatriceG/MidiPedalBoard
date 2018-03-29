@@ -18,3 +18,29 @@ Switch #2 is used to stop any note/sample playing (it sends an "all notes off" M
 Switch #3 is used to reset the current note played by 
 
 Switch #1 to MIDI_BASE_NOTE (led #3 blinks when Switch #3 is pressed)
+
+# Configuration
+
+PIN Mappings and MIDI settings are configured via the following constants:
+
+    
+`//PIN mappings
+#define PIN_IN_1 2
+#define PIN_IN_2 3
+#define PIN_IN_3 4
+#define PIN_IN_4 5
+#define PIN_IN_5 6
+
+#define PIN_LED_1 6
+#define PIN_LED_2 7
+#define PIN_LED_3 8
+#define PIN_LED_4 9
+#define PIN_LED_5 10
+
+//MIDI settings
+#define MIDI_VEL 127
+#define MIDI_CHANNEL 0  //midi channel 1!
+#define MIDI_BASE_NOTE 48
+#define DO_NOT_SEND_NOTE_OFF //define this to DISABLE note off messages (useful to sequence samples and read them fully for intance)`
+
+
