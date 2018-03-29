@@ -24,7 +24,8 @@ Switch #1 to MIDI_BASE_NOTE (led #3 blinks when Switch #3 is pressed)
 PIN Mappings and MIDI settings are configured via the following constants:
 
     
-`//PIN mappings
+```C
+//PIN mappings
 #define PIN_IN_1 2
 #define PIN_IN_2 3
 #define PIN_IN_3 4
@@ -42,5 +43,5 @@ PIN Mappings and MIDI settings are configured via the following constants:
 #define MIDI_CHANNEL 0  //midi channel 1!
 #define MIDI_BASE_NOTE 48
 #define DO_NOT_SEND_NOTE_OFF //define this to DISABLE note off messages (useful to sequence samples and read them fully for intance)`
-
+```
 
