@@ -30,7 +30,7 @@
 #define PIN_LED_2 8
 #define PIN_LED_3 9
 #define PIN_LED_4 10
-#define PIN_LED_5 16
+#define PIN_LED_5 A0
 
 #define MIDI_VEL 127
 #define MIDI_CHANNEL 0  //midi channel 1!
